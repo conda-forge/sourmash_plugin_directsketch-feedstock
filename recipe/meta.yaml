@@ -1,5 +1,5 @@
 {% set name = "sourmash_plugin_directsketch" %}
-{% set version = "0.3.1" %}
+{% set version = "0.3.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/sourmash_plugin_directsketch-{{ version }}.tar.gz
-  sha256: 033bfc35f8816660060db3e0e234aad187dc3c515081550840afcccce984cf98
+  sha256: 3bb246714c0faf6d2af7e17ee967344131bb2eb5302b2a1be406f81f0c0dc2a7
 
 build:
   number: 0
@@ -57,4 +57,4 @@ about:
 extra:
   recipe-maintainers:
     - ctb
-    - bluegenes 
+    - bluegenes
