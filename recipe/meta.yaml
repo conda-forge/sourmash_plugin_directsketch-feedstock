@@ -37,8 +37,6 @@ requirements:
     - python
     - xz
     - sourmash-minimal >=4.8.3,<5
-    - libstdcxx-ng
-    - libgcc-ng
 
 test:
   imports:
