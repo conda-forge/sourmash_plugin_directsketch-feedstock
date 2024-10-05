@@ -1,5 +1,5 @@
 {% set name = "sourmash_plugin_directsketch" %}
-{% set version = "0.3.2" %}
+{% set version = "0.4.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/sourmash_plugin_directsketch-{{ version }}.tar.gz
-  sha256: 3bb246714c0faf6d2af7e17ee967344131bb2eb5302b2a1be406f81f0c0dc2a7
+  sha256: 12ca32eb07e36173e90c27a5e6179ddaad12c7d813c4931a8b726a8e47343652
 
 build:
   number: 0
@@ -37,8 +37,6 @@ requirements:
     - python
     - xz
     - sourmash-minimal >=4.8.3,<5
-    - libstdcxx-ng
-    - libgcc-ng
 
 test:
   imports:
