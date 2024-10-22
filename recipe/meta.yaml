@@ -1,5 +1,5 @@
 {% set name = "sourmash_plugin_directsketch" %}
-{% set version = "0.4.0" %}
+{% set version = "0.4.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,10 +7,10 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/sourmash_plugin_directsketch-{{ version }}.tar.gz
-  sha256: 12ca32eb07e36173e90c27a5e6179ddaad12c7d813c4931a8b726a8e47343652
+  sha256: 7c043c7cf92e4311526fbacb5a20fe704bd6fb0a21ae6eddc359269f5f8a86b9
 
 build:
-  number: 1
+  number: 0
   skip: true  # [osx or win or py<310]
 
 requirements:
