@@ -21,14 +21,14 @@ requirements:
     - maturin >=1.1.0,<2.0                  # [build_platform != target_platform]
     - {{ compiler('c') }}
     - {{ compiler('cxx') }}
-    - {{ compiler('rust') }} >= 1.65.0
+    - {{ compiler('rust') }} >=1.65.0
     - {{ stdlib("c") }}
     - posix                               # [win]
     - make                                # [unix]
     - cargo-bundle-licenses
     - libclang                            # [unix]
     - clangdev                            # [unix]
-    - xz
+    - liblzma-devel
   host:
     - python
     - maturin >=1.1.0,<2
