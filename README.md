@@ -151,7 +151,7 @@ Current release info
 
 | Name | Downloads | Version | Platforms |
 | --- | --- | --- | --- |
-| [![Conda Recipe](https://img.shields.io/badge/recipe-sourmash_plugin_directsketch-green.svg)](https://anaconda.org/conda-forge/sourmash_plugin_directsketch) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/sourmash_plugin_directsketch.svg)](https://anaconda.org/conda-forge/sourmash_plugin_directsketch) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/sourmash_plugin_directsketch.svg)](https://anaconda.org/conda-forge/sourmash_plugin_directsketch) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/sourmash_plugin_directsketch.svg)](https://anaconda.org/conda-forge/sourmash_plugin_directsketch) |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-sourmash__plugin__directsketch-green.svg)](https://anaconda.org/conda-forge/sourmash_plugin_directsketch) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/sourmash_plugin_directsketch.svg)](https://anaconda.org/conda-forge/sourmash_plugin_directsketch) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/sourmash_plugin_directsketch.svg)](https://anaconda.org/conda-forge/sourmash_plugin_directsketch) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/sourmash_plugin_directsketch.svg)](https://anaconda.org/conda-forge/sourmash_plugin_directsketch) |
 
 Installing sourmash_plugin_directsketch
 =======================================
